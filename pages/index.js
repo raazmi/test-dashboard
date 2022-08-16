@@ -2,7 +2,7 @@ import { Grid, Typography } from "@mui/material";
 import Counters from "../components/sections/Counters/Counters";
 import Revenue from "../components/sections/Revenue/Revenue";
 import TopSales from "../components/sections/TopSales/TopSales";
-import { StyledCard } from "../styles/GlobalStyled";
+import UsersList from "../components/sections/UsersList/UsersList";
 
 export default function Home() {
   return (
@@ -37,18 +37,7 @@ export default function Home() {
             marginTop: "40px",
           }}
         >
-          <StyledCard>
-            <Typography
-              variant="subtitle1"
-              sx={{
-                marginBottom: "15px",
-                fontWeight: "500",
-                fontSize: "18px",
-              }}
-            >
-              Users
-            </Typography>
-          </StyledCard>
+          <UsersList />
         </Grid>
       </Grid>
     </div>

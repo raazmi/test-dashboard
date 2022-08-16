@@ -51,7 +51,7 @@ const ChartRadial = () => {
             background
           />
           <Legend
-            iconSize={14}
+            iconSize={8}
             layout="horizontal"
             verticalAlign="bottom"
             align="center"

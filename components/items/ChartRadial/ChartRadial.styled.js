@@ -16,9 +16,9 @@ export const ChartRadialWraper = styled(Box)`
       stroke-linejoin: round !important;
     }
   }
-  .recharts-legend-wrapper{
-    border-top: 1px solid #ededed;
+  .recharts-legend-wrapper {
+    border-top: 1px solid rgba(41, 41, 41, 0.05);
     padding-top: 10px;
-    margin-bottom: -5px;
+    margin-bottom: -10px;
   }
 `;
