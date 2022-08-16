@@ -1,11 +1,20 @@
+import { Typography } from "@mui/material";
 import { StyledCard } from "../../../styles/GlobalStyled";
 import ChartRadial from "../../items/ChartRadial/ChartRadial";
-import SectionTitle from "../../items/SectionTitle/SectionTitle";
 
 const TopSales = () => {
   return (
     <StyledCard>
-      <SectionTitle />
+      <Typography
+        variant="subtitle1"
+        sx={{
+          marginBottom: "15px",
+          fontWeight: "500",
+          fontSize: "18px",
+        }}
+      >
+        Top Sales
+      </Typography>
       <ChartRadial />
     </StyledCard>
   );

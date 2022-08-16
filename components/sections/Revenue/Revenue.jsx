@@ -1,12 +1,21 @@
+import { Typography } from "@mui/material";
 import { StyledCard } from "../../../styles/GlobalStyled";
 import ChartArea from "../../items/ChartArea/ChartArea";
-import SectionTitle from "../../items/SectionTitle/SectionTitle";
 
 const Revenue = () => {
   return (
     <StyledCard>
-      <SectionTitle />
-      <ChartArea/>
+      <Typography
+        variant="subtitle1"
+        sx={{
+          marginBottom: "15px",
+          fontWeight: "500",
+          fontSize: "18px",
+        }}
+      >
+        Earning Revenue
+      </Typography>
+      <ChartArea />
     </StyledCard>
   );
 };

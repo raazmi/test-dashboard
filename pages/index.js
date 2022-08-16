@@ -37,7 +37,18 @@ export default function Home() {
             marginTop: "40px",
           }}
         >
-          <StyledCard>Another Card</StyledCard>
+          <StyledCard>
+            <Typography
+              variant="subtitle1"
+              sx={{
+                marginBottom: "15px",
+                fontWeight: "500",
+                fontSize: "18px",
+              }}
+            >
+              Users
+            </Typography>
+          </StyledCard>
         </Grid>
       </Grid>
     </div>
