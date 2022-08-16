@@ -1,6 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import Counters from "../components/sections/Counters/Counters";
 import Revenue from "../components/sections/Revenue/Revenue";
+import TopSales from "../components/sections/TopSales/TopSales";
 import { StyledCard } from "../styles/GlobalStyled";
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
             marginTop: "40px",
           }}
         >
-          <Revenue/>
+          <Revenue />
         </Grid>
         <Grid
           item
@@ -27,9 +28,7 @@ export default function Home() {
             marginTop: "40px",
           }}
         >
-          <StyledCard>
-            Another Card
-          </StyledCard>
+          <TopSales />
         </Grid>
         <Grid
           item
@@ -38,9 +37,7 @@ export default function Home() {
             marginTop: "40px",
           }}
         >
-          <StyledCard>
-            Another Card
-          </StyledCard>
+          <StyledCard>Another Card</StyledCard>
         </Grid>
       </Grid>
     </div>

@@ -19,6 +19,7 @@ export const HeaderWrapper = styled(Box)`
   display: flex;
   align-items: center;
   column-gap: 30px;
+  z-index: 999;
 `;
 
 export const WelcomeText = styled(Typography)(
